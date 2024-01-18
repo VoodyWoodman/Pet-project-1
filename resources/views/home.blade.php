@@ -15,8 +15,8 @@
     <nav>
         <a href="#section1">Section 1</a>
         <a href="#section2">Section 2</a>
-        <a href="autorization.html">Вход</a>
-        <a href="registration.html">Регистрация</a>
+        <a href="{{ route('auth.page') }}">Вход</a>
+        <a href="{{ route('reg.page') }}">Регистрация</a>
     </nav>
 
     <section id="section1">
